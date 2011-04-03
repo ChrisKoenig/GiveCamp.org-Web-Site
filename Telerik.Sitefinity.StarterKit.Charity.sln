@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitefinity.Widgets.Social",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sitefinity.Widgets.Maps", "Sitefinity.Widgets.Maps\Sitefinity.Widgets.Maps.csproj", "{555665D5-CBD3-4235-96A2-1D4163890A8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GiveCamp.Funding", "GiveCamp.Funding\GiveCamp.Funding.csproj", "{2896DE26-49C6-4817-8EDE-ED683440CF14}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +34,12 @@ Global
 		{555665D5-CBD3-4235-96A2-1D4163890A8D}.Release Pro|Any CPU.Build.0 = Release|Any CPU
 		{555665D5-CBD3-4235-96A2-1D4163890A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{555665D5-CBD3-4235-96A2-1D4163890A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2896DE26-49C6-4817-8EDE-ED683440CF14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2896DE26-49C6-4817-8EDE-ED683440CF14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2896DE26-49C6-4817-8EDE-ED683440CF14}.Release Pro|Any CPU.ActiveCfg = Release|Any CPU
+		{2896DE26-49C6-4817-8EDE-ED683440CF14}.Release Pro|Any CPU.Build.0 = Release|Any CPU
+		{2896DE26-49C6-4817-8EDE-ED683440CF14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2896DE26-49C6-4817-8EDE-ED683440CF14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
