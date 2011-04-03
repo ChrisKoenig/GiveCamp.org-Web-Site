@@ -407,10 +407,6 @@
     <Folder Include="App_Themes\DarkRed\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GiveCamp.Funding\GiveCamp.Funding.csproj">
-      <Project>{2896DE26-49C6-4817-8EDE-ED683440CF14}</Project>
-      <Name>GiveCamp.Funding</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Sitefinity.Widgets.Maps\Sitefinity.Widgets.Maps.csproj">
       <Project>{555665D5-CBD3-4235-96A2-1D4163890A8D}</Project>
       <Name>Sitefinity.Widgets.Maps</Name>
