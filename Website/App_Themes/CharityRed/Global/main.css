@@ -1,0 +1,316 @@
+﻿body 
+{
+    background-color: #262626;
+    margin: 0px;
+    top: 0px;
+    font-size: 12px;
+    font-family: Arial;
+}
+
+iframe body
+{
+	background: #fff;
+}
+
+fieldset
+{
+	border: none;
+}
+
+#main a
+{
+	color: #0c5c8a;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#main a:hover
+{
+	color: #0c7caa;
+	text-decoration: underline;
+}
+
+#wrapper 
+{
+    position:relative;
+    margin: 20px auto;
+    width: 900px;
+}
+
+#header
+{
+    background-color:#d11313;
+}
+
+#logo a
+{
+    position: relative;
+    width: 360px;
+    height: 119px;
+    background-image: url('../Images/logo.jpg');
+    text-indent: -5000px;
+    display: block;
+}
+
+#logo a:hover 
+{
+    background-position: 0 -119px;
+}
+
+
+
+.RadTabStrip_menu
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    line-height: 40px;
+    border-top: 1px solid #990c0c;
+    border-bottom: 1px solid #aa3b3b;
+    background-color: #a11d1d;
+}
+
+.RadTabStrip_menu a
+{
+    color: White;
+    display: block;
+    border-bottom: 2px solid #a11d1d;
+}
+.RadTabStrip_menu a:hover
+{
+    display: block;
+    background-color: #b43939;
+    border-bottom: 2px solid #c98282;
+}
+
+.header-image 
+{
+    position:relative;
+    float: left;
+    width: 100%;
+    height: 280px;
+}
+
+.header-image-left 
+{
+    background-image: url(../Images/header_image.jpg);
+    height: 280px;
+    overflow: hidden;
+}
+
+.header-image-right {
+    height: 280px;
+    overflow: hidden;
+    background-image: url(../Images/header_right.jpg);
+    color: #ccc;
+    line-height: 22px;
+}
+
+.header-image-right h3 
+{
+    font-size: 22px;
+    color: White;
+    margin-bottom: 10px;
+    font-family: Times New Roman;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 10px;
+    font-weight: normal;
+}
+
+.header-image-right a 
+{
+    display: block;
+    position: relative;
+    float:left;
+    padding-left: 40px;
+    height: 33px;
+    line-height: 33px;
+    padding-right: 10px;
+    background-image: url(../Images/donate.png);
+    color: White;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px #000;
+    text-decoration: none;
+    border-right: 1px solid #13405b;
+}
+
+.header-image-right a:hover 
+{
+    background-position: 0 -33px;
+}
+
+.body h2,
+.homepage h2
+{
+    background-color: #404040;
+    font-size: 16px;
+    font-weight: bold;
+    color: White;
+    text-shadow: 1px 1px 0px #000;
+    width: 98%;
+    margin-top: 0px;
+    padding-left: 2%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.three_col_split h2
+{
+	background-color: #404040;
+}
+
+.homepage .sfnewsListItem
+{
+	margin-right: 50px;
+	background: url('../images/news.png') left 8px no-repeat;
+	padding: 8px 0 8px 45px;
+	
+}
+
+.homepage .sfeventListItem
+{
+	margin-right: 50px;
+	background: url('../images/calendar.png') left 8px no-repeat;
+	padding: 8px 0 8px 45px;
+	border-bottom: 1px dashed #ccc;
+}
+
+.sfnewsList,
+.sfeventsList
+{
+	margin: 0px;
+	padding: 5px 0 0 15px;
+	list-style-type: none;
+}
+
+.sfnewsList h3
+{
+	margin-bottom: 3px;
+}
+
+.sfnewsList .sfnewsMetaInfo
+{
+	margin: 0px;
+}
+
+.sfnewsSummary
+{
+	margin: 10px 0px;
+}
+
+.sfnewsListItem
+{
+	padding-bottom: 10px;
+	margin-right: 20px;
+	border-bottom: 1px dashed #ccc;
+}
+
+
+.body h1,
+.sidebar h2
+{
+	background-color: #0c5c8a;
+	font-size: 22px;
+	text-indent: 15px;
+	font-weight: bold;
+	color: White;
+	text-shadow: 1px 1px 0px #000;
+	width: 99%;
+	margin-top: 0px;
+	padding-left: 1%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#main 
+{
+	position: relative;
+	clear: both;
+	background: #efefef;
+	color: #666;
+	line-height: 18px;
+	padding: 35px 15px;
+}
+
+
+.body
+{
+	padding: 0 15px 0 0;
+	width: 660px !important;
+	background-image: url(../Images/vertical_separator.jpg);
+	background-position: right;
+	background-repeat: repeat-y;
+	margin-bottom: 30px;
+}
+
+.sidebar
+{
+	width: 175px !important;
+	margin-left: 15px;
+}
+
+.three_col_split .sf_colsOut
+{
+	width: 250px !important;
+	overflow: hidden;
+	margin: 0 15px;
+}
+
+.three_col_split .sf_colsOut img
+{
+	width: 250px;
+	height: 180px;
+}
+
+blockquote
+{
+	position: relative;
+	float: left;
+	font-family: Times New Roman;
+	font-size: 18px;
+	line-height: 30px;
+	color: #666;
+	text-align: center;
+	padding-bottom: 20px;
+	background-image: url(../Images/quote_bg.jpg);
+	background-repeat: no-repeat;
+	text-shadow: 1px 1px 0px #fff;
+}
+
+.footer 
+{
+    color: #777;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.RadTabStrip_footer_menu
+{
+    position: relative;
+    float: left;
+    width: 100%;
+    line-height: 40px;
+}
+
+.RadTabStrip_footer_menu a
+{
+    color: #ccc;
+    display: block;
+}
+.RadTabStrip_footer_menu a:hover
+{
+    display: block;
+    color : #eee;
+}
+
+.RadTabStrip_footer_menu a.rtsLink  
+{
+    padding-left: 0px;
+    text-align: left;
+}
+.RadTabStrip_footer_menu a.rtsLink  span
+{
+    padding: 0px;
+}
+
+

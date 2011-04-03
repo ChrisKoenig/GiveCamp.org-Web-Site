@@ -1,0 +1,13 @@
+bin
+obj
+*.suo
+*.user
+*.ReSharper
+*_ReSharper.*/**
+Website/App_Data/Sitefinity/Logs/**
+Website/App_Data/Sitefinity/RadSpell/**
+Website/App_Data/Sitefinity/Search/**
+Website/App_Data/Sitefinity/Temp
+*.vspscc
+*.ldf
+*.mdf

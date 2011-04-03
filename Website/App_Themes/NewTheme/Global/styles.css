@@ -1,0 +1,178 @@
+﻿body 
+{
+	background-color: #262626;
+	margin: 0px;
+	top: 0px;
+	font-size: 14px;
+	font-family: Arial;
+	color: Black;
+}
+
+#wrapper 
+{
+    background-color: White;
+	position:relative;
+	margin: 20px auto;
+	width: 900px;
+}
+
+/* -------------------------------------------------------------------- */
+/* Header styles */
+
+.header
+{
+	background-color:#005586;
+}
+
+.header .logo 
+{
+	position: relative;
+	width: 360px;
+	height: 119px;
+	display: block;
+	background-image: url('../Images/logo.jpg');
+	background-repeat: no-repeat;
+}
+
+
+.header .logo h1
+{
+    position: absolute;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-style: italic;
+    text-shadow: 1px 1px 0 #000;
+    font-size: 2em;
+    color: White;
+    top: 15px;
+    left: 82px;
+}
+
+.header .logo h2 
+{
+    font-size: 1em;
+    font-weight: bold;
+    position: absolute;
+    top: 56px;
+    left: 120px;
+
+}
+
+.header a:hover 
+{
+	background-position: 0 -119px;
+}
+
+/* -------------------------------------------------------------------- */
+/* Navigation Menu styles */
+
+.RadMenu_menu
+{
+	position: relative;
+	float: left;
+	width: 100%;
+	line-height: 40px;
+	border-top: 1px solid #004c77;
+	border-bottom: 1px solid #3b7da2;
+	background-color: #1a6692;
+}
+
+.RadMenu_menu a.rmLink
+{
+	color: White;
+	display: block;
+	text-align: center;
+	border-bottom: 2px solid #1a6692;
+	text-decoration: none;
+	cursor: pointer !important;
+	padding: 0 7px 0 19px;
+}
+
+.RadMenu_menu a:hover,
+.RadMenu_menu a.rmSelected,
+.RadMenu_menu a.rmExpanded 
+{
+	display: block;
+	background-color: #31769d;
+	border-bottom: 2px solid #8bb2c8;
+}
+
+.RadMenu_menu .rmGroup 
+{
+    background-color: #1a6692;
+    border-top: 1px solid #3b7da2;
+}
+
+.RadMenu_menu .rmGroup a 
+{
+    border-left: 2px solid #1a6692;
+}
+
+.RadMenu_menu .rmGroup a:hover,
+.RadMenu_menu .rmGroup .rmSelected
+{
+    border-bottom: none;
+    border-left: 2px solid #8bb2c8;
+}
+
+/* -------------------------------------------------------------------- */
+/* Banner styles */
+
+.banner
+{
+	height: 280px;
+}
+
+.banner-left 
+{
+	height: 280px;
+	overflow: hidden;
+}
+
+.banner-right {
+	height: 280px;
+	overflow: hidden;
+	background-image: url(../Images/header_right.jpg);
+	color: #ccc;
+	line-height: 22px;
+}
+
+.banner-right h3 
+{
+	font-size: 22px;
+	color: White;
+	font-weight: normal;
+	margin-bottom: 10px;
+	font-family: Times New Roman;
+	border-bottom: 1px solid #707070;
+	padding-bottom: 10px;
+}
+
+.banner-right a 
+{
+	display: block;
+	position: relative;
+	float:left;
+	padding-left: 40px;
+	height: 33px;
+	line-height: 33px;
+	padding-right: 10px;
+	background-image: url(../Images/donate.png);
+	color: White;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px #000;
+	text-decoration: none;
+	border-right: 1px solid #13405b;
+}
+
+.banner-right a:hover
+{
+	background-position: 0 -33px;
+}
+
+.main 
+{
+	background: #efefef;
+	color: #444;
+	line-height: 1.5em;
+}
+
