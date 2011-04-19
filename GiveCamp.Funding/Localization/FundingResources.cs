@@ -15,35 +15,35 @@ namespace GiveCamp.Funding.Localization
                        Value = "FundingResources",
                        Description = "The title of this class.",
                        LastModified = "2009/04/30")]
-        public string SampleResourcesTitle
+        public string FundingResourcesTitle
         {
             get
             {
-                return this["SampleResourcesTitle"];
+                return this["FundingResourcesTitle"];
             }
         }
 
-        [ResourceEntry("SampleResourcesDescription",
-                       Value = "Contains localizable resources for Sample module labels.",
+        [ResourceEntry("FundingResourcesDescription",
+                       Value = "Contains localizable resources for Funding module labels.",
                        Description = "The description of this class.",
                        LastModified = "2009/04/30")]
-        public string SampleResourcesDescription
+        public string FundingResourcesDescription
         {
             get
             {
-                return this["SampleResourcesDescription"];
+                return this["FundingResourcesDescription"];
             }
         }
 
-        [ResourceEntry("SampleResourcesTitlePlural",
+        [ResourceEntry("FundingResourcesTitlePlural",
             Value = "FundingResources",
             Description = "The title plural of this class.",
             LastModified = "2009/04/30")]
-        public string SampleResourcesTitlePlural
+        public string FundingResourcesTitlePlural
         {
             get
             {
-                return this["SampleResourcesTitlePlural"];
+                return this["FundingResourcesTitlePlural"];
             }
         }
 

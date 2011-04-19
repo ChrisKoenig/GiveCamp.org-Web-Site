@@ -14,37 +14,37 @@ namespace GiveCamp.Funding.Model
             get { return false; }
         }
 
-        [FieldAlias("eventName")]
+        [FieldAlias("EventName")]
         public string EventName { get; set; }
 
-        [FieldAlias("eventDate")]
-        public DateTime? EventDate { get; set; }
+        [FieldAlias("EventDate")]
+        public DateTime EventDate { get; set; }
 
-        [FieldAlias("contactFirstName")]
-        public string ContactFirstName { get; set; }
+        [FieldAlias("FirstName")]
+        public string FirstName { get; set; }
 
-        [FieldAlias("contactLastName")]
-        public string ContactLastName { get; set; }
+        [FieldAlias("LastName")]
+        public string LastName { get; set; }
 
-        [FieldAlias("contactAddress")]
-        public string ContactAddress { get; set; }
+        [FieldAlias("Address")]
+        public string Address { get; set; }
 
-        [FieldAlias("contactCity")]
-        public string ContactCity { get; set; }
+        [FieldAlias("City")]
+        public string City { get; set; }
 
-        [FieldAlias("contactState")]
-        public string ContactState { get; set; }
+        [FieldAlias("State")]
+        public string State { get; set; }
 
-        [FieldAlias("contactZipCode")]
-        public string ContactZipCode { get; set; }
+        [FieldAlias("ZipCode")]
+        public string ZipCode { get; set; }
 
-        [FieldAlias("contactPhoneNumber")]
-        public string ContactPhoneNumber { get; set; }
+        [FieldAlias("PhoneNumber")]
+        public string PhoneNumber { get; set; }
 
-        [FieldAlias("contactEmailAddress")]
-        public string ContactEmailAddress { get; set; }
+        [FieldAlias("EmailAddress")]
+        public string EmailAddress { get; set; }
 
-        [FieldAlias("amountRequested")]
+        [FieldAlias("AmountRequested")]
         public decimal AmountRequested { get; set; }
     }
 }
